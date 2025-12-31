@@ -1,0 +1,24 @@
+# 讯飞星火Lite配置
+spark:
+  app-id: eaa4f871
+  api-key: 08e54bb6310975d2a7d7ede779dd2d37
+  api-secret: YzM3NWUyYmQ0ZGUxMzQ2MmIzOTY5MmI5
+  host: spark-api.xf-yun.com
+  path: /v1.1/chat
+  domain: lite
+  max-tokens: 4096
+  temperature: 0.5
+
+# 服务配置
+server:
+  port: 8080
+
+# WebSocket配置
+websocket:
+  allowed-origins: "*"
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
