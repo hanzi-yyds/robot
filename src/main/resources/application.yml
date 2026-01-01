@@ -1,8 +1,8 @@
 # 讯飞星火Lite配置
 spark:
-  app-id: eaa4f871
-  api-key: 08e54bb6310975d2a7d7ede779dd2d37
-  api-secret: YzM3NWUyYmQ0ZGUxMzQ2MmIzOTY5MmI5
+  app-id: 替换为你的appID
+  api-key: 替换为你的apiKey
+  api-secret: 替换为你的appSecret
   host: spark-api.xf-yun.com
   path: /v1.1/chat
   domain: lite
